@@ -1,4 +1,5 @@
-public final class Faker {
+import Foundation;
+public final class Faker : NSObject {
 
   public var locale: String {
     didSet {

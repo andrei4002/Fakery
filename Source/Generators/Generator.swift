@@ -1,6 +1,6 @@
 import Foundation
 
-public class Generator {
+public class Generator : NSObject {
 
   public struct Constants {
     public static let uppercaseLetters = Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters)
